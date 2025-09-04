@@ -12,7 +12,7 @@ class Veiculo:
         return f"{self.marca} {self.modelo} ({self.ano}) - Placa: {self.placa}"
 
     
-    def reservar(self):
+    def reservar(self): # Método para reservar o carro
         if self.esta_disponivel:
             self.esta_disponivel = False
             print(f"O {self} foi reservado.")
