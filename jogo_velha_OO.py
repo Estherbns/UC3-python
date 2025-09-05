@@ -14,4 +14,6 @@ class Velha():
         print( "___ ___ ___")
         print( ""+ self.lista0[2] [0]+  "|"+ self.lista0[2] [1]+ "|"+self.lista0[2][2]+"")
 
+    def jogarMaquina(self):
+     return random.randint(0, 2)
 
