@@ -16,4 +16,15 @@ jogadaLinha = jogo.jogarMaquina()
 jogadaColuna = jogo.jogarMaquina()
 jogo.tabuleiro[jogadaLinha][jogadaColuna] = 'O'
 print('Máquina jogou')
-jogo.desenharTabuleiro()
+jogo.Desenhar()
+
+resultado = jogo.verificarVencedor()
+
+if resultado["X"]: # testa se é true
+    print("X venceu")
+elif resultado["O"]:
+    print("O venceu")
+else:
+    print("empate")
+
+
