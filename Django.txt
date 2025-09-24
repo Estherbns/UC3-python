@@ -35,7 +35,8 @@ Reestartar o computador para o Windows carregar as alterações.
 $ls 
 
 """Ativar o ambiente virtual (No Windows)
-$ source/Scripts/activate
+$ source env/Scripts/activate
+
 
 """Ativar o ambiente virtual (no Mac)
 $ source/bin/activate

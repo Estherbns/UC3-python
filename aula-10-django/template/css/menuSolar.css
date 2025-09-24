@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    background-color: rgb(185, 179, 216);
+    padding: 10px 0;
+    width: 940px;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+   /* border: 2px solid black; */
+}
+
+.logo {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.hmenu {
+    position: absolute;
+    top: 50px;
+    font-size: 24px;
+    right: 10px;
+}
+
+.meu-texto {
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    color: rgb(75, 39, 205); 
+    font-style: italic;
+    font-size: 18px;     
+    font-weight: bold;
+}
+
+.meu-texto2 {
+
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    color: rgb(58, 55, 229);    
+    font-size: 24px;     
+    font-weight: bold;
+}
+
+.hmenu ul li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.hmenu ul li a {
+    color: #024b4b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.hmenu ul li a:hover{
+    color:rgb(224,134,30);
+    border-bottom: 1px solid rgb(224,134,30);
+
+
+}
+.rodape {
+    background-color: rgb(216, 215, 179);
+    font-style: italic;
+    padding: 5px 0;
+    /*width: 940px;*/
+    position: relative; 
+    margin: auto;
+    text-align: center;
+}
+

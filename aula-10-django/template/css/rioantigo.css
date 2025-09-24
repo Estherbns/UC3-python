@@ -1,0 +1,61 @@
+conteudo-principal {
+    width: 940px;
+}
+
+
+.titulo-principal {
+    font-family: 'Arima', cursive;    
+    color: rgb(10, 85, 151);
+    margin: 20px 0;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 1px solid rgb(10, 85, 151);
+}
+
+.conteudo-secao {
+    padding: 10px 0;
+}
+
+.cabecalho-secao {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #a196a7;
+    margin: 0 0 10px 0;
+}
+
+.conteudo-secao p {
+    padding: 5px 0 5px 0;
+    text-align: justify;
+}
+
+.titulo-curiosidade {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    color: teal;
+    font-size: .8em;
+}
+
+.rodape {
+    background-color: rgb(245,247,230);
+    width: 940px;
+    margin-top: 20px;
+}
+
+.rodape div {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.rodape h4 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.rodape ul {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+
+
